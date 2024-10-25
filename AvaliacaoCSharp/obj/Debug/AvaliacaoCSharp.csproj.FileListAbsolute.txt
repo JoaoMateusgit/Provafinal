@@ -1,0 +1,7 @@
+C:\Desenvhome-pxc\AvaliacaoCSharp\obj\Debug\AvaliacaoCSharp.csprojAssemblyReference.cache
+C:\Desenvhome-pxc\AvaliacaoCSharp\obj\Debug\AvaliacaoCSharp.csproj.CoreCompileInputs.cache
+C:\Soft\pxc\bin\AvaliacaoCSharp.exe.config
+C:\Soft\pxc\bin\AvaliacaoCSharp.exe
+C:\Soft\pxc\bin\AvaliacaoCSharp.pdb
+C:\Desenvhome-pxc\AvaliacaoCSharp\obj\Debug\AvaliacaoCSharp.exe
+C:\Desenvhome-pxc\AvaliacaoCSharp\obj\Debug\AvaliacaoCSharp.pdb
