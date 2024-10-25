@@ -8,6 +8,7 @@ namespace AvaliacaoCSharp
 {
     public class Program
     {
+        CadastroConvenio c = new CadastroConvenio();
         static void Main(string[] args)
         {
             montarMenu();
@@ -52,17 +53,28 @@ namespace AvaliacaoCSharp
         }
         static void executarOpcao(Int16 opt)
         {
+            CadastroConvenio c = new CadastroConvenio();
             switch (opt)
             {
                 case 1:
+                    c.AdicionarConvenio("0", "0", "0", "0", "0");
+                    Console.ReadLine();
                     break;
                 case 2:
+                    c.RemoverConvenio("0");
+                    Console.ReadLine();
                     break;
                 case 3:
+                    c.ListarConvenios("0");
+                    Console.ReadLine();
                     break;
-                case 4:                  
+                case 4:
+                    c.SalvarConvenios();
+                    Console.ReadLine();
                     break;
-                case 5:                    
+                case 5:
+                    Console.WriteLine("Finalizando o programa, tenha um bom dia!");
+                    Console.ReadLine();
                     break;
             }
         }

@@ -33,6 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AcessaBancoDados, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Soft\pxc\bin\AcessaBancoDados.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,12 +48,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcessoBanco.cs" />
     <Compile Include="CadastroConvenio.cs" />
     <Compile Include="Convenio.cs" />
     <Compile Include="Generic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Retorno.cs" />
+    <Compile Include="SqlCommandExtensions.cs" />
     <Compile Include="StatusConvenio.cs" />
     <Compile Include="Validações.cs" />
   </ItemGroup>

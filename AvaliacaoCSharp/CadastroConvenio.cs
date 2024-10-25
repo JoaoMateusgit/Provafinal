@@ -41,7 +41,6 @@ namespace AvaliacaoCSharp
             dtAtuStatus = Console.ReadLine();
             ValidarDataAtualizacao(dtAtuStatus);
             ValidarDataFutura(dtAtuStatus);
-            listaConvenios.Add(convenio.Cnpj);
         }
         #endregion
 
@@ -120,6 +119,7 @@ namespace AvaliacaoCSharp
             else
             {
                 return new Retorno(false, 12, "12 - A razão Social deve ter 3 ou mais carcteres");
+                throw new Exception("12 - A razão Social deve ter 3 ou mais carcteres");
             }
         }
         //Validar se a quantidade de empregados é do tipo inteiro (código 13);
@@ -202,7 +202,6 @@ namespace AvaliacaoCSharp
             }
             else if (chave == convenio.Cnpj)
             {
-                listaConvenios.Remove(convenio.Cnpj);
                 return new Retorno(true, 0, "Sucesso.");
             }
             else
