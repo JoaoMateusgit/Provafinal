@@ -41,7 +41,7 @@ namespace AvaliacaoCSharp
             dtAtuStatus = Console.ReadLine();
             ValidarDataAtualizacao(dtAtuStatus);
             ValidarDataFutura(dtAtuStatus);
-            listaConvenios.Add(cnpj);
+            listaConvenios.Add(convenio.Cnpj);
         }
         #endregion
 
